@@ -1,0 +1,58 @@
+/* Dice Roller - CSS */
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Supermercado One', serif;
+  font-size: 45px;
+}
+
+#flex-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  padding: auto;
+}
+
+.box {
+  height: 110px;
+  width: 110px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  display: box;
+  background-color: #fffff7;
+}
+
+.dicebutton {
+  width: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto 5px auto;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.placeholder {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto 5px auto;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:20px;
+  background-color: white;
+}
+
